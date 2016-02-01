@@ -5,6 +5,24 @@
   <title>Test fail</title>
 </head>
 <body>
+  Eesnimi: <input type="text" id="first-name"><br><br>
+  Perekonnanimi: <input type="text" id="last-name"><br><br>
+  <input type="submit" value="Tervita" onclick="welcome()"><br><br>
+  <div id=output></div>
+  <script>
+    var first_name;
+    var last_name;
 
+    function welcome(){
+      //console.log("töötab");
+      console.log("töötab");
+      first_name = document.getElementById('first-name').value;
+      last_name = document.getElementById('last-name').value;
+
+      console.log(first_name +' '+ last_name);
+
+      document.getElementById('output').innerHTML = '<b>Tere</b>'+' '+first_name +' '+ last_name;
+    }
+  </script>
 </body>
 </html>
