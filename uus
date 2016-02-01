@@ -6,8 +6,17 @@
 </head>
 <body>
   Eesnimi: <input type="text" id="first-name" onkeyup="welcome()"><br><br>
-  Perekonnanimi: <input type="text" id="last-name" onkeyup="welcome()"><br><br>
-  <input type="submit" value="Tervita" onclick="welcome()"><br><br>
+  Perekonnanimi: <input type="text" id="last-name" onkeyup="welcome"><br><br>
+  <input type="submit" value="Ter<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+  </head>
+  <body>
+
+  </body>
+  </html>vita" onclick="welcome()"><br><br>
   <div id=output></div>
   <script>
     var first_name;
