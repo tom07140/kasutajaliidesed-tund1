@@ -5,8 +5,8 @@
   <title>Test fail</title>
 </head>
 <body>
-  Eesnimi: <input type="text" id="first-name"><br><br>
-  Perekonnanimi: <input type="text" id="last-name"><br><br>
+  Eesnimi: <input type="text" id="first-name" onkeyup="welcome()"><br><br>
+  Perekonnanimi: <input type="text" id="last-name" onkeyup="welcome()"><br><br>
   <input type="submit" value="Tervita" onclick="welcome()"><br><br>
   <div id=output></div>
   <script>
